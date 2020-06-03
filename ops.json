@@ -1,0 +1,26 @@
+[
+  {
+    "uuid": "d32512ea-669c-34a2-b518-cc40382f45c8",
+    "name": "PJKGames",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  },
+  {
+    "uuid": "c5263f2b-bed6-4240-9254-6ac52af0a5d0",
+    "name": "_DragonTamer",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  },
+  {
+    "uuid": "b640f752-cffc-3406-a09e-564b7853e0c8",
+    "name": "agent_dude",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  },
+  {
+    "uuid": "ebb5d775-5612-3dc5-a3e1-da60078d1906",
+    "name": "da_boi",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  }
+]

@@ -1,0 +1,187 @@
+[03Jun2020 04:16:25.884] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--gameDir, ., --launchTarget, fmlserver, --fml.forgeVersion, 31.2.5, --fml.mcpVersion, 20200515.085601, --fml.mcVersion, 1.15.2, --fml.forgeGroup, net.minecraftforge, nogui]
+[03Jun2020 04:16:25.888] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 5.1.0+69+master.79f13f7 starting: java version 11.0.7 by Amazon.com Inc.
+[03Jun2020 04:16:26.257] [main/INFO] [net.minecraftforge.fml.loading.FixSSL/CORE]: Added Lets Encrypt root certificates as additional trust
+[03Jun2020 04:16:26.733] [main/INFO] [STDERR/]: [jdk.nashorn.api.scripting.NashornScriptEngine:<init>:143]: Warning: Nashorn engine is planned to be removed from a future JDK release
+[03Jun2020 04:16:26.914] [main/INFO] [STDERR/]: [jdk.nashorn.api.scripting.NashornScriptEngine:<init>:143]: Warning: Nashorn engine is planned to be removed from a future JDK release
+[03Jun2020 04:16:28.209] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'fmlserver' with arguments [--gameDir, ., nogui]
+[03Jun2020 04:16:39.444] [main/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[03Jun2020 04:16:39.446] [main/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[03Jun2020 04:16:39.449] [main/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
+[03Jun2020 04:16:39.456] [main/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[03Jun2020 04:16:39.459] [main/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[03Jun2020 04:16:39.607] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.15.2
+[03Jun2020 04:16:40.688] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 31.2.5, for MC 1.15.2 with MCP 20200515.085601
+[03Jun2020 04:16:40.689] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v31.2.5 Initialized
+[03Jun2020 04:16:41.364] [Server thread/INFO] [journeymap/]: Loading JourneyMap Forge Configs
+[03Jun2020 04:16:41.366] [Thread-0/INFO] [journeymap/]: Loading JourneyMap Forge Configs
+[03Jun2020 04:16:41.367] [Thread-0/INFO] [journeymap/]: Loading JourneyMap Forge Configs
+[03Jun2020 04:16:41.387] [modloading-worker-1/INFO] [com.sk89q.worldedit.forge.ForgeWorldEdit/]: WorldEdit for Forge (version 7.1.0;48cc31c) is loaded
+[03Jun2020 04:16:41.671] [Server thread/INFO] [net.minecraftforge.fml.DeferredWorkQueue/LOADING]: Dispatching synchronous work after COMMON_SETUP: 1 jobs
+[03Jun2020 04:16:41.672] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/maven/net/minecraftforge/forge/promotions_slim.json
+[03Jun2020 04:16:41.680] [Server thread/INFO] [journeymap/]: Initializing Packet Registry
+[03Jun2020 04:16:41.700] [Server thread/INFO] [net.minecraftforge.fml.DeferredWorkQueue/LOADING]: Synchronous work queue completed in 00:00:00.021
+[03Jun2020 04:16:41.708] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
+[03Jun2020 04:16:41.744] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: CREATIVE
+[03Jun2020 04:16:41.745] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Generating keypair
+[03Jun2020 04:16:42.108] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
+[03Jun2020 04:16:42.200] [Server thread/INFO] [net.minecraft.network.NetworkSystem/]: Using epoll channel type
+[03Jun2020 04:16:42.468] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[03Jun2020 04:16:42.468] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: The server will make no attempt to authenticate usernames. Beware.
+[03Jun2020 04:16:42.468] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[03Jun2020 04:16:42.469] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: To change this, set "online-mode" to "true" in the server.properties file.
+[03Jun2020 04:16:42.525] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: AHEAD Current: 31.2.5 Target: null
+[03Jun2020 04:16:43.586] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
+[03Jun2020 04:16:44.201] [Server thread/INFO] [net.minecraft.resources.SimpleReloadableResourceManager/]: Reloading ResourceManager: Default, forge-1.15.2-31.2.5-universal.jar, worldedit-forge-mc1.15.2-7.1.0.jar, journeymap-1.15.2-5.7.0b2.jar, cvmap4
+[03Jun2020 04:16:49.846] [Netty Epoll Server IO #1/INFO] [net.minecraftforge.fml.server.ServerLifecycleHooks/SERVERHOOKS]: Disconnecting Player (server is still starting): Server is still starting! Please wait before reconnecting.
+[03Jun2020 04:17:05.664] [Netty Epoll Server IO #2/INFO] [net.minecraftforge.fml.server.ServerLifecycleHooks/SERVERHOOKS]: Disconnecting Player (server is still starting): Server is still starting! Please wait before reconnecting.
+[03Jun2020 04:17:09.984] [Netty Epoll Server IO #3/INFO] [net.minecraftforge.fml.server.ServerLifecycleHooks/SERVERHOOKS]: Disconnecting Player (server is still starting): Server is still starting! Please wait before reconnecting.
+[03Jun2020 04:17:13.367] [Server thread/INFO] [net.minecraft.item.crafting.RecipeManager/]: Loaded 6 recipes
+[03Jun2020 04:17:14.173] [Server thread/INFO] [net.minecraft.advancements.FunctionManager/]: Loaded 1 custom command functions
+[03Jun2020 04:17:14.330] [Server thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 825 advancements
+[03Jun2020 04:17:14.680] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[03Jun2020 04:17:15.869] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[03Jun2020 04:17:15.869] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[03Jun2020 04:17:15.872] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[03Jun2020 04:17:16.235] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 15%
+[03Jun2020 04:17:16.446] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Time elapsed: 1765 ms
+[03Jun2020 04:17:16.447] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (32.981s)! For help, type "help"
+[03Jun2020 04:17:17.350] [Server thread/INFO] [com.sk89q.worldedit.extension.platform.PlatformManager/]: Got request to register class com.sk89q.worldedit.forge.ForgePlatform with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@2b9a0be8]
+[03Jun2020 04:17:18.023] [Server thread/INFO] [com.sk89q.worldedit.extension.platform.PlatformCommandManager/]: Registering commands with com.sk89q.worldedit.forge.ForgePlatform
+[03Jun2020 04:17:18.337] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[03Jun2020 04:17:18.340] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[03Jun2020 04:17:19.309] [Netty Epoll Server IO #0/INFO] [journeymap/]: Dev Mode?
+[03Jun2020 04:17:20.776] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.advancements.PlayerAdvancements@58a9d55d
+[03Jun2020 04:17:20.823] [Server thread/INFO] [net.minecraft.server.management.PlayerList/]: da_boi[/199.58.103.69:58512] logged in with entity id 1 at (474.2844223519862, 25.0, -149.39680897025252)
+[03Jun2020 04:17:20.902] [Netty Epoll Server IO #0/ERROR] [net.minecraft.command.arguments.ArgumentTypes/]: Could not serialize net.minecraftforge.server.command.ModIdArgument@4c18ec51 (class net.minecraftforge.server.command.ModIdArgument) - will not be sent to client!
+[03Jun2020 04:17:20.904] [Netty Epoll Server IO #0/ERROR] [net.minecraft.command.arguments.ArgumentTypes/]: Could not serialize net.minecraftforge.server.command.EnumArgument@49ba12e1 (class net.minecraftforge.server.command.EnumArgument) - will not be sent to client!
+[03Jun2020 04:17:20.907] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: da_boi joined the game
+[03Jun2020 04:42:53.663] [Server thread/WARN] [net.minecraft.network.play.ServerPlayNetHandler/]: da_boi moved too quickly! 8.159093862455848,0.0,-6.109959657019459
+[03Jun2020 04:43:19.505] [Server thread/WARN] [net.minecraft.network.play.ServerPlayNetHandler/]: da_boi moved too quickly! -0.4046493045673287,0.0,-10.34300878262107
+[03Jun2020 05:00:49.041] [Netty Epoll Server IO #2/INFO] [journeymap/]: Dev Mode?
+[03Jun2020 05:00:50.126] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.advancements.PlayerAdvancements@4e13b181
+[03Jun2020 05:00:50.138] [Server thread/INFO] [net.minecraft.server.management.PlayerList/]: agent_dude[/76.105.199.193:60866] logged in with entity id 2 at (480.8330034061963, 21.0, -157.85159533790176)
+[03Jun2020 05:00:50.158] [Netty Epoll Server IO #2/ERROR] [net.minecraft.command.arguments.ArgumentTypes/]: Could not serialize net.minecraftforge.server.command.ModIdArgument@4c18ec51 (class net.minecraftforge.server.command.ModIdArgument) - will not be sent to client!
+[03Jun2020 05:00:50.159] [Netty Epoll Server IO #2/ERROR] [net.minecraft.command.arguments.ArgumentTypes/]: Could not serialize net.minecraftforge.server.command.EnumArgument@49ba12e1 (class net.minecraftforge.server.command.EnumArgument) - will not be sent to client!
+[03Jun2020 05:00:50.162] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: agent_dude joined the game
+[03Jun2020 05:06:13.115] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [agent_dude: Applied effect Night Vision to agent_dude]
+[03Jun2020 05:10:03.411] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [agent_dude: Teleported agent_dude to da_boi]
+[03Jun2020 05:44:40.089] [Server thread/WARN] [net.minecraft.network.play.ServerPlayNetHandler/]: da_boi moved too quickly! 10.073059539565804,0.0,1.1511814934811184
+[03Jun2020 05:44:46.541] [Server thread/WARN] [net.minecraft.network.play.ServerPlayNetHandler/]: da_boi moved too quickly! -10.47961127665468,0.0,0.02405040525587765
+[03Jun2020 05:47:40.262] [Server thread/WARN] [net.minecraft.network.play.ServerPlayNetHandler/]: da_boi moved too quickly! 1.0109922718690996,-11.268945743924224,1.0980276904287507
+[03Jun2020 05:49:08.493] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [agent_dude: Teleported agent_dude to da_boi]
+[03Jun2020 06:01:54.568] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.advancements.PlayerAdvancements@646370c6
+[03Jun2020 06:01:54.572] [Server thread/INFO] [net.minecraft.server.management.PlayerList/]: PJKGames[/98.232.236.250:51551] logged in with entity id 3 at (451.422352838095, 20.0, -158.94496404889622)
+[03Jun2020 06:01:54.574] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: PJKGames joined the game
+[03Jun2020 06:01:54.590] [Netty Epoll Server IO #3/ERROR] [net.minecraft.command.arguments.ArgumentTypes/]: Could not serialize net.minecraftforge.server.command.ModIdArgument@4c18ec51 (class net.minecraftforge.server.command.ModIdArgument) - will not be sent to client!
+[03Jun2020 06:01:54.592] [Netty Epoll Server IO #3/ERROR] [net.minecraft.command.arguments.ArgumentTypes/]: Could not serialize net.minecraftforge.server.command.EnumArgument@49ba12e1 (class net.minecraftforge.server.command.EnumArgument) - will not be sent to client!
+[03Jun2020 06:06:45.566] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: PJKGames lost connection: Disconnected
+[03Jun2020 06:06:45.567] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: PJKGames left the game
+[03Jun2020 06:06:47.568] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.advancements.PlayerAdvancements@6ad03355
+[03Jun2020 06:06:47.572] [Server thread/INFO] [net.minecraft.server.management.PlayerList/]: PJKGames[/98.232.236.250:51593] logged in with entity id 5 at (445.4220209844505, 20.0, -142.6320655853485)
+[03Jun2020 06:06:47.574] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: PJKGames joined the game
+[03Jun2020 06:06:47.586] [Netty Epoll Server IO #0/ERROR] [net.minecraft.command.arguments.ArgumentTypes/]: Could not serialize net.minecraftforge.server.command.ModIdArgument@4c18ec51 (class net.minecraftforge.server.command.ModIdArgument) - will not be sent to client!
+[03Jun2020 06:06:47.587] [Netty Epoll Server IO #0/ERROR] [net.minecraft.command.arguments.ArgumentTypes/]: Could not serialize net.minecraftforge.server.command.EnumArgument@49ba12e1 (class net.minecraftforge.server.command.EnumArgument) - will not be sent to client!
+[03Jun2020 06:12:34.966] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: PJKGames lost connection: Disconnected
+[03Jun2020 06:12:34.967] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: PJKGames left the game
+[03Jun2020 06:22:19.618] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.advancements.PlayerAdvancements@775c71a3
+[03Jun2020 06:22:19.622] [Server thread/INFO] [net.minecraft.server.management.PlayerList/]: PJKGames[/98.232.236.250:57448] logged in with entity id 10 at (435.2067164145349, 22.93167535456379, -154.69999998807907)
+[03Jun2020 06:22:19.624] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: PJKGames joined the game
+[03Jun2020 06:22:19.636] [Netty Epoll Server IO #1/ERROR] [net.minecraft.command.arguments.ArgumentTypes/]: Could not serialize net.minecraftforge.server.command.ModIdArgument@4c18ec51 (class net.minecraftforge.server.command.ModIdArgument) - will not be sent to client!
+[03Jun2020 06:22:19.637] [Netty Epoll Server IO #1/ERROR] [net.minecraft.command.arguments.ArgumentTypes/]: Could not serialize net.minecraftforge.server.command.EnumArgument@49ba12e1 (class net.minecraftforge.server.command.EnumArgument) - will not be sent to client!
+[03Jun2020 06:26:57.516] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: PJKGames lost connection: Disconnected
+[03Jun2020 06:26:57.517] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: PJKGames left the game
+[03Jun2020 06:52:24.016] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: agent_dude lost connection: Disconnected
+[03Jun2020 06:52:24.017] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: agent_dude left the game
+[03Jun2020 06:52:26.266] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: da_boi lost connection: Disconnected
+[03Jun2020 06:52:26.266] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: da_boi left the game
+[03Jun2020 06:53:28.053] [Netty Epoll Server IO #0/INFO] [journeymap/]: Dev Mode?
+[03Jun2020 06:53:28.930] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.advancements.PlayerAdvancements@30d6a9e0
+[03Jun2020 06:53:28.950] [Server thread/INFO] [net.minecraft.server.management.PlayerList/]: da_boi[/199.58.103.69:59351] logged in with entity id 11 at (425.11698755851205, 23.90779718977031, -137.54913801550845)
+[03Jun2020 06:53:28.965] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: da_boi joined the game
+[03Jun2020 06:53:28.968] [Netty Epoll Server IO #0/ERROR] [net.minecraft.command.arguments.ArgumentTypes/]: Could not serialize net.minecraftforge.server.command.ModIdArgument@4c18ec51 (class net.minecraftforge.server.command.ModIdArgument) - will not be sent to client!
+[03Jun2020 06:53:28.968] [Netty Epoll Server IO #0/ERROR] [net.minecraft.command.arguments.ArgumentTypes/]: Could not serialize net.minecraftforge.server.command.EnumArgument@49ba12e1 (class net.minecraftforge.server.command.EnumArgument) - will not be sent to client!
+[03Jun2020 06:54:10.566] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: da_boi lost connection: Disconnected
+[03Jun2020 06:54:10.566] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: da_boi left the game
+[03Jun2020 06:55:14.288] [Netty Epoll Server IO #1/INFO] [journeymap/]: Dev Mode?
+[03Jun2020 06:55:15.371] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.advancements.PlayerAdvancements@52ca7171
+[03Jun2020 06:55:15.377] [Server thread/INFO] [net.minecraft.server.management.PlayerList/]: agent_dude[/76.105.199.193:61427] logged in with entity id 12 at (460.54690343680755, 23.665741808498804, -142.24046920924462)
+[03Jun2020 06:55:15.394] [Netty Epoll Server IO #1/ERROR] [net.minecraft.command.arguments.ArgumentTypes/]: Could not serialize net.minecraftforge.server.command.ModIdArgument@4c18ec51 (class net.minecraftforge.server.command.ModIdArgument) - will not be sent to client!
+[03Jun2020 06:55:15.395] [Netty Epoll Server IO #1/ERROR] [net.minecraft.command.arguments.ArgumentTypes/]: Could not serialize net.minecraftforge.server.command.EnumArgument@49ba12e1 (class net.minecraftforge.server.command.EnumArgument) - will not be sent to client!
+[03Jun2020 06:55:15.397] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: agent_dude joined the game
+[03Jun2020 06:59:21.020] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Made PJKGames a server operator
+[03Jun2020 07:01:07.342] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Made _DragonTamer a server operator
+[03Jun2020 07:06:31.066] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: agent_dude lost connection: Disconnected
+[03Jun2020 07:06:31.067] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: agent_dude left the game
+[03Jun2020 07:06:48.439] [Netty Epoll Server IO #3/INFO] [journeymap/]: Dev Mode?
+[03Jun2020 07:06:49.522] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.advancements.PlayerAdvancements@4bc3882e
+[03Jun2020 07:06:49.527] [Server thread/INFO] [net.minecraft.server.management.PlayerList/]: agent_dude[/76.105.199.193:61486] logged in with entity id 13 at (450.71379217719704, 22.751783903347107, -145.19230169150612)
+[03Jun2020 07:06:49.544] [Netty Epoll Server IO #3/ERROR] [net.minecraft.command.arguments.ArgumentTypes/]: Could not serialize net.minecraftforge.server.command.ModIdArgument@4c18ec51 (class net.minecraftforge.server.command.ModIdArgument) - will not be sent to client!
+[03Jun2020 07:06:49.544] [Netty Epoll Server IO #3/ERROR] [net.minecraft.command.arguments.ArgumentTypes/]: Could not serialize net.minecraftforge.server.command.EnumArgument@49ba12e1 (class net.minecraftforge.server.command.EnumArgument) - will not be sent to client!
+[03Jun2020 07:06:49.546] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: agent_dude joined the game
+[03Jun2020 07:10:05.716] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: agent_dude lost connection: Disconnected
+[03Jun2020 07:10:05.716] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: agent_dude left the game
+[03Jun2020 16:35:56.430] [Netty Epoll Server IO #3/INFO] [journeymap/]: Dev Mode?
+[03Jun2020 16:35:58.171] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.advancements.PlayerAdvancements@422d74e0
+[03Jun2020 16:35:58.176] [Server thread/INFO] [net.minecraft.server.management.PlayerList/]: da_boi[/199.58.103.69:59575] logged in with entity id 14 at (432.68054656402046, 20.0, -147.30195469345955)
+[03Jun2020 16:35:58.189] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: da_boi joined the game
+[03Jun2020 16:35:58.191] [Netty Epoll Server IO #3/ERROR] [net.minecraft.command.arguments.ArgumentTypes/]: Could not serialize net.minecraftforge.server.command.ModIdArgument@4c18ec51 (class net.minecraftforge.server.command.ModIdArgument) - will not be sent to client!
+[03Jun2020 16:35:58.191] [Netty Epoll Server IO #3/ERROR] [net.minecraft.command.arguments.ArgumentTypes/]: Could not serialize net.minecraftforge.server.command.EnumArgument@49ba12e1 (class net.minecraftforge.server.command.EnumArgument) - will not be sent to client!
+[03Jun2020 16:36:27.997] [Server thread/WARN] [net.minecraft.network.play.ServerPlayNetHandler/]: da_boi moved too quickly! 8.416189556039,-3.374563777902573,4.803749536262444
+[03Jun2020 16:43:22.312] [Netty Epoll Server IO #1/INFO] [journeymap/]: Dev Mode?
+[03Jun2020 16:43:23.420] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.advancements.PlayerAdvancements@55782f19
+[03Jun2020 16:43:23.424] [Server thread/INFO] [net.minecraft.server.management.PlayerList/]: agent_dude[/76.105.199.193:62001] logged in with entity id 15 at (498.6777535025521, 32.11546800911584, -135.68299897272908)
+[03Jun2020 16:43:23.433] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: agent_dude joined the game
+[03Jun2020 16:43:23.445] [Netty Epoll Server IO #1/ERROR] [net.minecraft.command.arguments.ArgumentTypes/]: Could not serialize net.minecraftforge.server.command.ModIdArgument@4c18ec51 (class net.minecraftforge.server.command.ModIdArgument) - will not be sent to client!
+[03Jun2020 16:43:23.445] [Netty Epoll Server IO #1/ERROR] [net.minecraft.command.arguments.ArgumentTypes/]: Could not serialize net.minecraftforge.server.command.EnumArgument@49ba12e1 (class net.minecraftforge.server.command.EnumArgument) - will not be sent to client!
+[03Jun2020 16:43:30.743] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <da_boi> hi
+[03Jun2020 16:43:33.197] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <agent_dude> hi
+[03Jun2020 16:43:35.088] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <da_boi> i just go on
+[03Jun2020 16:44:00.142] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <da_boi> zoom?
+[03Jun2020 16:44:16.180] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <agent_dude> ok, in 15
+[03Jun2020 16:44:18.337] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <da_boi> i don't think connor did anything
+[03Jun2020 16:44:31.914] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <agent_dude> yea we should ask
+[03Jun2020 16:44:39.096] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <da_boi> ok
+[03Jun2020 16:46:43.099] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <agent_dude> he never joined
+[03Jun2020 16:46:48.920] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <agent_dude> i checked the server logs
+[03Jun2020 16:47:46.546] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [agent_dude: Teleported agent_dude to da_boi]
+[03Jun2020 16:50:33.633] [Server thread/WARN] [net.minecraft.network.play.ServerPlayNetHandler/]: da_boi moved too quickly! -0.5065904143160651,1.6818285669232402,-10.225214939963848
+[03Jun2020 17:30:17.013] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <agent_dude> check ur email
+[03Jun2020 18:22:50.617] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.advancements.PlayerAdvancements@7bea6c43
+[03Jun2020 18:22:50.620] [Server thread/INFO] [net.minecraft.server.management.PlayerList/]: StrategosOne[/73.96.81.182:51369] logged in with entity id 23 at (453.5, 21.0, -145.5)
+[03Jun2020 18:22:50.622] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: StrategosOne joined the game
+[03Jun2020 18:22:50.630] [Netty Epoll Server IO #2/ERROR] [net.minecraft.command.arguments.ArgumentTypes/]: Could not serialize net.minecraftforge.server.command.ModIdArgument@4c18ec51 (class net.minecraftforge.server.command.ModIdArgument) - will not be sent to client!
+[03Jun2020 18:22:50.631] [Netty Epoll Server IO #2/ERROR] [net.minecraft.command.arguments.ArgumentTypes/]: Could not serialize net.minecraftforge.server.command.EnumArgument@49ba12e1 (class net.minecraftforge.server.command.EnumArgument) - will not be sent to client!
+[03Jun2020 18:23:28.230] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <StrategosOne> wassup
+[03Jun2020 18:23:30.446] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <agent_dude> welcome!
+[03Jun2020 18:23:33.232] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <da_boi> hey
+[03Jun2020 18:23:44.128] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <da_boi> wanna join our zoom
+[03Jun2020 18:23:56.230] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <StrategosOne> no, but you need to drop the quad by one block
+[03Jun2020 18:23:56.993] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <agent_dude> i just need ur email
+[03Jun2020 18:25:47.601] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <StrategosOne> whay are you using sandstone
+[03Jun2020 18:25:54.845] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <StrategosOne> you should be using concrete
+[03Jun2020 18:26:03.031] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <da_boi> for sidewalks?
+[03Jun2020 18:26:04.660] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <StrategosOne> and bricks instead of wood
+[03Jun2020 18:26:21.920] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <da_boi> the school bricks arent red
+[03Jun2020 18:26:34.681] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <StrategosOne> the acacia is a good idea, but the other blocks in the main buiding are wrong
+[03Jun2020 18:26:43.974] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [agent_dude: Teleported agent_dude to StrategosOne]
+[03Jun2020 18:26:44.008] [Server thread/WARN] [net.minecraft.network.play.ServerPlayNetHandler/]: agent_dude moved too quickly! -14.255371247427888,-23.12605993726286,315.19080613054166
+[03Jun2020 18:26:53.099] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [agent_dude: Removed every effect from agent_dude]
+[03Jun2020 18:27:08.798] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <da_boi> ok well you can change them if you want
+[03Jun2020 18:27:27.945] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <agent_dude> just use world edit and //replace
+[03Jun2020 18:27:28.137] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <da_boi> but, at least we have like a template
+[03Jun2020 18:27:34.411] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <StrategosOne> yes
+[03Jun2020 18:28:13.567] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: StrategosOne lost connection: Disconnected
+[03Jun2020 18:28:13.567] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: StrategosOne left the game
+[03Jun2020 18:30:41.426] [Server thread/WARN] [net.minecraft.network.play.ServerPlayNetHandler/]: da_boi moved too quickly! -9.06307041849277,0.03802157375605475,-4.6713208583653625
+[03Jun2020 18:31:48.475] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [agent_dude: Teleported agent_dude to da_boi]
+[03Jun2020 18:31:48.515] [Server thread/WARN] [net.minecraft.network.play.ServerPlayNetHandler/]: agent_dude moved too quickly! 61.97400457103862,-16.17054221633447,125.25670876036202
+[03Jun2020 18:59:32.214] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [agent_dude: Teleported da_boi to agent_dude]
+[03Jun2020 19:02:30.779] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [agent_dude: Teleported da_boi to agent_dude]
+[03Jun2020 19:05:18.566] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: agent_dude lost connection: Disconnected
+[03Jun2020 19:05:18.566] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: agent_dude left the game
+[03Jun2020 19:10:14.967] [Netty Epoll Server IO #1/INFO] [journeymap/]: Dev Mode?
+[03Jun2020 19:10:16.072] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.advancements.PlayerAdvancements@1fe22f2a
+[03Jun2020 19:10:16.077] [Server thread/INFO] [net.minecraft.server.management.PlayerList/]: agent_dude[/76.105.199.193:63638] logged in with entity id 25 at (524.3508931410101, 34.75105956479152, -161.58028681529203)
+[03Jun2020 19:10:16.086] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: agent_dude joined the game
+[03Jun2020 19:10:16.090] [Netty Epoll Server IO #1/ERROR] [net.minecraft.command.arguments.ArgumentTypes/]: Could not serialize net.minecraftforge.server.command.ModIdArgument@4c18ec51 (class net.minecraftforge.server.command.ModIdArgument) - will not be sent to client!
+[03Jun2020 19:10:16.091] [Netty Epoll Server IO #1/ERROR] [net.minecraft.command.arguments.ArgumentTypes/]: Could not serialize net.minecraftforge.server.command.EnumArgument@49ba12e1 (class net.minecraftforge.server.command.EnumArgument) - will not be sent to client!
